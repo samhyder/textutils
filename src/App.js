@@ -16,7 +16,7 @@ function App() {
         />
         <div className="container my-3">
           <Routes>
-            <Route path="/" element={<TextForm heading="Enter the text here to Analyze" />}>
+            <Route path="/textutils" element={<TextForm heading="Enter the text here to Analyze" />}>
             </Route>
             <Route exact path="/about" element={<About />}></Route>
           </Routes>
